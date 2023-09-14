@@ -1,0 +1,75 @@
+body {
+  background: url(../images/food_dark_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: cursive;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 4rem 0;
+  line-height: 1.2;
+}
+
+ul {
+  max-width: 265px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.emoji,
+a {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+a:hover {
+  padding-left: 0.5rem;
+  transition: 0.12s;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  ul {
+    max-width: 245px;
+  }
+
+  a,
+  .emoji {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  ul {
+    max-width: 220px;
+  }
+
+  a,
+  .emoji {
+    font-size: 1.2rem;
+  }
+}
